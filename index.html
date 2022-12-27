@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>STOGRAMM</title>
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <div class="navbar">
+      <div class="container">
+        <div class="header">
+          <div class="title__content">
+            <div class="title__header">
+              <img class="logo" src="./images/glass.svg" alt="" /> STOGRAMM
+            </div>
+            <div class="search-box">
+              <input type="text" class="search-txt" placeholder="Поиск..." />
+              <a class="search-btn">
+                <img
+                  src="https://images.vexels.com/media/users/3/132068/isolated/preview/f9bb81e576c1a361c61a8c08945b2c48-search-icon.png"
+                  alt=""
+                  width="20px"
+                />
+              </a>
+            </div>
+            <div class="admin">
+              <button class="open-admin btn">Войти в админку</button>
+              <div class="add-page">
+                <button class="open-add-modal btn">Добавить новый пост</button>
+              </div>
+            </div>
+          </div>
+          <img src="./images/admin.svg" alt="admin" class="admin-icn" />
+        </div>
+      </div>
+    </div>
+    <div class="wrapper">
+      <div class="container">
+        <div class="add-post__modal">
+          <div class="new-post__form form">
+            <div class="add-post__title">
+              <h3>Добавить новый пост</h3>
+              <button class="close-add-modal btn">X</button>
+            </div>
+            <div class="add-content">
+              <div class="content-inp">
+                URL:
+                <input class="add-url-inp" type="text" />
+              </div>
+              <div class="content-inp">
+                Username:
+                <input class="add-name-inp" type="text" />
+              </div>
+              <div class="content-inp">
+                Описание:
+                <input class="add-descrip-inp" type="text" />
+              </div>
+              <div class="image">
+                <img class="display-img" src="" alt="" />
+              </div>
+            </div>
+            <button class="add-post-btn btn">Добавить</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="container">
+        <div class="edit-post__modal">
+          <div class="new-post__form form">
+            <div class="edit-post__title">
+              <!-- <img src="./img/heart-svgrepo-com.svg" alt=""> -->
+              <h3>Редактировать пост</h3>
+              <button class="close-edit-modal btn">X</button>
+            </div>
+            <div class="edit-image">
+              <img class="display-edit-img" src="" alt="" />
+            </div>
+            <div class="edit-content">
+              <div class="content-inp">
+                URL:
+                <input class="edit-url-inp" type="text" />
+              </div>
+              <div class="content-inp">
+                Username:
+                <input class="edit-name-inp" type="text" />
+              </div>
+              <div class="content-inp">
+                Описание:
+                <input class="edit-descrip-inp" type="text" />
+              </div>
+              <div class="image">
+                <img class="display-img" src="" alt="" />
+              </div>
+            </div>
+            <button class="save-post-btn btn">Сохранить</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="post">
+        <div class="post-content">
+          <div class="post-header">
+            <div class="logo">
+              <img
+                src="./images/glass.svg"
+                alt="html5-icon"
+                class="header-png"
+              />
+            </div>
+            <div class="title">
+              <strong class="title-html5">stogramm</strong>
+              <p class="title-username">6.sinful._.soul.9</p>
+            </div>
+            <div class="edit-delete">
+              <img
+                src="./img/delete-broom-svgrepo-com.svg"
+                alt=""
+                class="delete"
+              />
+              <img src="./img/edit-svgrepo-com.svg" alt="" class="edit" />
+            </div>
+          </div>
+
+          <div class="post-img">
+            <img src="./img/photo_2022-12-27_13-10-48.jpg" alt="post-image" />
+          </div>
+
+          <div class="post-info">
+            <div class="likes">
+              <img src="./img/heart-svgrepo-com.svg" class="heart-svg" />
+              <div>
+                <strong> V.V.Putin,V.Zelenskiy,J.Baiden </strong>
+                <span> and </span>
+                <strong>100,000 others</strong>
+              </div>
+            </div>
+            <strong>6.sinful._.soul.9</strong>
+            <span> Шайтаны плачут </span>
+          </div>
+          <div class="comments">
+            <span class="comments_first-child">view all comments(666)</span>
+          </div>
+        </div>
+      </div>
+      
+      <div class="paginate">
+        <button class="prev-btn btn">Prev</button>
+        <button class="next-btn btn">Next</button>
+      </div>
+    </div>
+    <script src="./js/main.js"></script>
+  </body>
+</html>

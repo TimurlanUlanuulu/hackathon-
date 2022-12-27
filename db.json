@@ -1,0 +1,51 @@
+{
+  "posts": [
+    {
+      "name": "Билли Харрингтон",
+      "desription": "Умер",
+      "url": "https://sun9-82.userapi.com/impg/iq0pNZEtglq-BQUAWgNdLwHEJo5yHTvXvi8fuQ/13lzSCAscbw.jpg?size=1200x1198&quality=95&sign=20623162506721d3e5a89a229a7e9ab2&c_uniq_tag=pI6k9ZDWQfPCmfsxSnOgcVhKMnShnurw8_xoOkvCLDU&type=album",
+      "likeSt": true,
+      "likes": 1,
+      "comments": 0,
+      "views": 0,
+      "reposts": 11,
+      "id": 1
+    },
+    {
+      "name": "Хуф",
+      "desription": "Умер",
+      "url": "https://pbs.twimg.com/media/ELQmDgCXsAEeHDF?format=jpg&name=large",
+      "likeSt": false,
+      "likes": 0,
+      "comments": 0,
+      "views": 0,
+      "reposts": 0,
+      "id": 2
+    },
+    {
+      "name": "цой",
+      "desription": "жив",
+      "url": "https://avatars.mds.yandex.net/i?id=7200a71eddb8b789ae1f5a9f0632955cdec43c33-7664914-images-thumbs&n=13",
+      "likeSt": false,
+      "likes": 0,
+      "comments": 0,
+      "views": 0,
+      "reposts": 0,
+      "id": 3
+    },
+    {
+      "0": 0,
+      "1": 1,
+      "name": "johhny_badboy",
+      "desription": "na chilee",
+      "url": "https://flxt.tmsimg.com/assets/33623_v9_bd.jpg",
+      "likes": 0,
+      "comments": 0,
+      "views": 0,
+      "reposts": 6,
+      "id": 4,
+      "likeSt": false,
+      "resposts": 0
+    }
+  ]
+}
